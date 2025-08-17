@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.half {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+textarea {
+  flex: 1;
+  resize: none;
+  background: transparent;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  background-color: #111;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+#chat-box {
+  flex: 1;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.message {
+  margin: 4px 0;
+  white-space: pre-wrap;
+}
+
+.user {
+  color: #00aaff;
+  text-align: right;
+}
+
+.bot {
+  color: #f1f4f1;
+  text-align: left;
+}

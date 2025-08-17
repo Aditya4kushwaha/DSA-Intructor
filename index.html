@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DSA Chat Bot</title>
+    <link rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="half">
+        <h2>Input</h2>
+        <textarea
+          id="user-input"
+          placeholder="Ask about Data Structures..."
+        ></textarea>
+        <button onclick="sendMessage()">Submit</button>
+      </div>
+
+      <div class="half">
+        <h2>Output</h2>
+        <div id="chat-box"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
